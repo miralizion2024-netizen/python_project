@@ -19,22 +19,16 @@ setuptools==80.9.0
 Twisted==25.5.0
 typing_extensions==4.14.1
 zope.interface==7.2
-Flask==2.0.2
-Flask-Login==0.5.0
-Flask-SQLAlchemy==2.5.1
-Werkzeug==2.0.2
+Flask==3.0.3
+Flask-SQLAlchemy==3.1.1
+Flask-Login==0.6.3
+Werkzeug==3.0.2
 
 flask
 flask_sqlalchemy
 flask_login
 werkzeug
 
-pip install flask flask_sqlalchemy flask_login werkzeug
-
 pip freeze > requirements.txt
 
-Flask==3.0.3
-Flask-SQLAlchemy==3.1.1
-Flask-Login==0.6.3
-Werkzeug==3.0.2
 
